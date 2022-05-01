@@ -1,0 +1,16 @@
+[
+    {
+        "name": "david joy",
+        "age": 24,
+        "programming_level": "senior developer"
+    },
+    {
+        "name": "carl black",
+        "age": 24,
+        "programming_level": "beginner"    },
+    {
+        "name": "joel daniel",
+        "age": 24,
+        "programming_level": "junior developer"
+    }
+]
