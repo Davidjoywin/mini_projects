@@ -13,7 +13,7 @@
 
 #container{
   position: relative;
-  max-width: var(--container-width);
+  width: var(--container-width);
   height: var(--container-height);
   top: calc((100vh / 2) - var(--container-height) / 2);
   left: calc((100vw / 2) - var(--container-width) /2 );
@@ -70,4 +70,11 @@ input[type="text"]{
 
 input[type="button"]{
   border-color: white;
+}
+
+@media screen and (max-width=500px){
+  #container{
+    width: 100vhw;
+    height: 100vh;
+  }
 }
